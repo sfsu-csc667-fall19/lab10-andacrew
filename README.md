@@ -1,4 +1,4 @@
-# Lab 9
+# Lab 10
 
 ## Basic Docker
 - test basic index.js
@@ -9,8 +9,9 @@
 - View with `docker container ls`
 - Stop with `docker stop <container id>`
 - Push your docker image with docker push https://docs.docker.com/engine/reference/commandline/push/
-- Run your image off of dockerhub `docker run -p 3000:3000 <username>/hello-docker:v1`
+- Run your image off of dockerhub `docker run -d -p 3000:3000 <username>/hello-docker`
 - Try running someone else's image
+-`docker pull <image>`
 
 ## Inspecting docker containers
 - Get into your contaienr with `docker exec -it <id> sh`
